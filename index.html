@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function clickHandler(){
+            color=document.getElementById("user").value
+
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</head>
+<body>
+    <form action="/action_page.php">
+        <input id="user" style="padding: 15px; margin: 15px;" type="text" placeholder="Enter a color" name="firstname">
+</form>    
+    
+    <button style="margin-left: 10px;" onclick="clickHandler()">click me</button>
+</body>
+</html>

@@ -1,0 +1,29 @@
+#main{
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    display: flex;
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    text-align: center;
+    margin:auto ;
+    margin-top: 200px;
+
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: brown;
+}
+#btn{
+    padding: 15px;
+}
+#author{
+    text-align: right;
+}
+#quo{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+}
